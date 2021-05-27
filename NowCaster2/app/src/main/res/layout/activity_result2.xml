@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42b4e6"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.Dialog">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:width="200dp"
+        android:drawablePadding="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:rotation="0"
+        android:rotationY="0"
+        android:scrollbars="vertical"
+        android:text="Weather Now and  future"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="0dp"
+            android:background="#002CC1ED" />
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="0dp"
+            android:background="#002CC1ED" />
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+
+        android:background="@drawable/myborder"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/tv"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:scrollbars="vertical"
+            android:text="NowCaster provides users with weather forcasting in the immediate future. You provide NowCaster with the image and our intelligent AI system will predict the probable weather for you, based on the cloud types. Plus U get to learn about clouds too :)"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</LinearLayout>

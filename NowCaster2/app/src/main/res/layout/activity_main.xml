@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42b4e6"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="203dp"
+        android:layout_gravity="center"
+        android:layout_height="191dp"
+        android:src="@drawable/sun2"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:paddingLeft="50dp"
+        android:text="NowCaster"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:textSize="70dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:text="Predicts all weather"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
